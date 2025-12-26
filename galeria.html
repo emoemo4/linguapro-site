@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Галерия | LinguaPro</title>
+  <meta name="description" content="Галерия със снимки от учебната среда, занятия и събития в LinguaPro" />
+  <meta name="keywords" content="галерия, снимки, езиков център, обучение" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Към съдържанието</a>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Начало">
+      <span class="logo" aria-hidden="true"></span>
+      <span>LinguaPro<small>Езиков и образователен център</small></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Основна навигация">
+      <a href="index.html">Начало</a>
+      <a href="za-nas.html">За нас</a>
+      <a href="kursove.html">Курсове</a>
+      <a href="novini.html">Новини</a>
+      <a href="galeria.html">Галерия</a>
+      <a href="kontakti.html">Контакти</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="section">
+  <div class="container">
+    <span class="badge">Галерия</span>
+    <h1 style="margin:10px 0 10px;">Снимки от занятия и събития</h1>
+
+    <div class="gallery" id="gallery" aria-label="Галерия със снимки">
+      <div class="g-item"><img src="img/g1.jpg" alt="Урок по английски в малка група" loading="lazy"></div>
+      <div class="g-item"><img src="img/g2.jpg" alt="Разговорен клуб в LinguaPro" loading="lazy"></div>
+      <div class="g-item"><img src="img/g3.jpg" alt="Урок по география на английски " loading="lazy"></div>
+      <div class="g-item"><img src="img/g4.jpg" alt="Онлайн урок и интерактивни упражнения" loading="lazy"></div>
+      <div class="g-item"><img src="img/g5.jpg" alt="Подготовка за сертификатен изпит" loading="lazy"></div>
+      <div class="g-item"><img src="img/g6.jpg" alt="Събитие: отворен урок за нови курсисти" loading="lazy"></div>
+    </div>
+  </div>
+</main>
+
+
+<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Преглед на снимка">
+  <div class="modal-content">
+    <div class="modal-bar">
+      <strong id="modalTitle">Галерия</strong>
+      <button class="icon-btn" id="modalClose" aria-label="Затвори">✕</button>
+    </div>
+    <img id="modalImg" src="" alt="">
+  </div>
+</div>
+
+<footer>
+  <div class="container footer">
+    <div><strong>LinguaPro</strong><div class="hr"></div><small>© 2025 LinguaPro — учебен център.</small></div>
+    <div>
+      <strong>Бързи връзки</strong><div class="hr"></div>
+      <div style="display:grid; gap:8px;">
+        <a href="index.html">Начало</a><a href="za-nas.html">За нас</a><a href="kursove.html">Курсове</a><a href="novini.html">Новини</a><a href="kontakti.html">Контакти</a>
+      </div>
+    </div>
+    <div>
+      <strong>Социални мрежи</strong><div class="hr"></div>
+      <div style="display:grid; gap:8px;">
+        <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">YouTube</a><a href="#">Партньор: EduHub</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
